@@ -19,6 +19,10 @@ console.log(alunos instanceof Array);
 // console.log(removido);
 // console.log(alunos);
 
+// const removidoUltimoElemento = alunos.pop();
+// console.log(removidoUltimoElemento);
+// console.log(alunos);
+
 // alunos.unshift('Fábio'); // Adiciona no começo
 // alunos.unshift('Luiza');
 
