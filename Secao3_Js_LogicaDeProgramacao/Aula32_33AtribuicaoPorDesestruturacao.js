@@ -19,6 +19,17 @@ const pessoa = {
   };
   
 // Atribuição via desestruturação
+// const { nome = '', sobrenome, ...resto } = pessoa;
+// const { nome: n, sobrenome, ...resto } = pessoa;
+// const { nome: n = '', sobrenome, ...resto } = pessoa;
+// const { endereco: { rua, numero } } = pessoa;
+/*
+  const { 
+    endereco, 
+    endereco: { rua, numero } } = pessoa;
+*/
+
+
 const { nome, sobrenome, ...resto } = pessoa;
 
 console.log(nome, resto);
